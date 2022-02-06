@@ -3,7 +3,7 @@
 This is an image classification app built using Django, React, and Material UI. The app uses a machine learning model built in TensorFlow and trained on the MNIST dataset to recognize handwritten digits.
 
 
-![plot](https://github.com/BobsProgrammingAcademy/Image-Classification-MNIST/blob/main/frontend/src/assets/images/drawing_editor.png?raw=true)
+![plot](https://github.com/BobsProgrammingAcademy/Image-Classification-MNIST/blob/master/frontend/src/assets/images/drawing_editor.png?raw=true)
 
 
 ## Prerequisites
