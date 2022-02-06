@@ -1,0 +1,7 @@
+*.pyc
+.DS_Store
+db.sqlite3
+ipynb_checkpoints/
+node_modules/
+venv/
+backend/media/images
