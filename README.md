@@ -47,7 +47,9 @@ From the **backend** directory run:
 
 ```bash
 python manage.py makemigrations
+```
 
+```bash
 python manage.py migrate
 ```
 
