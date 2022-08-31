@@ -5,6 +5,12 @@ This is an image classification app built using **TensorFlow 2**, **Django 3.2**
 ![plot](https://github.com/BobsProgrammingAcademy/Image-Classification-MNIST/blob/master/frontend/src/assets/images/drawing_editor.png?raw=true)
 
 
+## Table of Contents 
+- [Prerequisites](#prerequisites)
+- [Installation](#installation)
+- [Running the application](#run-the-application)
+
+
 ## Prerequisites
 
 Install the following prerequisites:
