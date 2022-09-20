@@ -1,6 +1,6 @@
 # Image Classification MNIST
 
-This is an image classification app built using **TensorFlow 2**, **Django 3.2**, **React 17**, and **Material UI 5**. The app uses a machine learning model built in TensorFlow and trained on the MNIST dataset to recognize handwritten digits.
+This is an image classification app built using **TensorFlow 2.7.0**, **Django 3.2.11**, **React 17.0.2**, and **Material UI 5.3.1**. The app uses a machine learning model built in TensorFlow and trained on the MNIST dataset to recognize handwritten digits.
 
 ![plot](https://github.com/BobsProgrammingAcademy/Image-Classification-MNIST/blob/master/frontend/src/assets/images/drawing_editor.png?raw=true)
 
