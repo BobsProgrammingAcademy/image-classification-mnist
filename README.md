@@ -16,7 +16,8 @@ This is an image classification app built using **TensorFlow 2**, **Django 3**, 
 
 Install the following prerequisites:
 
-1. [Python](https://www.python.org/downloads/)
+1. [Python 3.7-3.9](https://www.python.org/downloads/)
+This project uses **TensorFlow v2.7.0**. For TensorFlow to work, you must have a correct Python version installed on your machine. More information [here](https://www.tensorflow.org/install/source#tested_build_configurations).
 2. [Node.js](https://nodejs.org/en/)
 3. [Visual Studio Code](https://code.visualstudio.com/download)
 
