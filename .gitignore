@@ -1,6 +1,8 @@
 *.pyc
 .DS_Store
 db.sqlite3
+package-lock.json
+build/
 ipynb_checkpoints/
 node_modules/
 venv/
