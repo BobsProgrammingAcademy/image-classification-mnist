@@ -6,6 +6,7 @@ from django.conf import settings
 from django.db import models
 from PIL import Image
 
+
 class Classifier(models.Model):
     image = models.ImageField(upload_to='images')
     result = models.CharField(max_length=3, blank=True)
@@ -16,7 +17,7 @@ class Classifier(models.Model):
         img = Image.open(self.image)
         img_array = tf.keras.preprocessing.image.img_to_array(img)
 
-        new_img =  cv2.cvtColor(img_array, cv2.COLOR_BGR2GRAY)
+        new_img = cv2.cvtColor(img_array, cv2.COLOR_BGR2GRAY)
 
         dimensions = (28, 28)
 
@@ -36,7 +37,7 @@ class Classifier(models.Model):
                 prediction = np.argmax(model.predict(ready_image))
                 self.result = str(prediction)
                 print(f'Classified as {prediction}')
-        except:
+        except Exception:
             print('Failed to classify')
             self.result = 'F'
 

@@ -17,6 +17,7 @@ class Base64ImageField(serializers.ImageField):
 
 class ClassifierSerializer(serializers.ModelSerializer):
     image = Base64ImageField()
+
     class Meta:
         model = Classifier
         fields = '__all__'
