@@ -20,13 +20,13 @@ library.add(faPencilAlt, faEdit);
 const Sidebar = ({ onMobileClose, openMobile }) => {
   const theme = useTheme();
   const lgUp = useMediaQuery((theme) => theme.breakpoints.up('lg'));
-  
+
   useEffect(() => {
     if (openMobile && onMobileClose) {
       onMobileClose();
     }
   }, []);
-  
+
   return (
     <>
       <Drawer
@@ -37,8 +37,8 @@ const Sidebar = ({ onMobileClose, openMobile }) => {
         PaperProps={{
           sx: {
             backgroundColor: theme.palette.background.default,
-            width: 256
-          }
+            width: 256,
+          },
         }}
       >
         <Box
@@ -47,7 +47,7 @@ const Sidebar = ({ onMobileClose, openMobile }) => {
             display: 'flex',
             flexDirection: 'column',
             height: '100%',
-            p: 2
+            p: 2,
           }}
         >
           <Link to='/' style={{ textDecoration: 'none' }}>
@@ -58,25 +58,25 @@ const Sidebar = ({ onMobileClose, openMobile }) => {
                   backgroundColor: green[600],
                   marginRight: '15px',
                   height: 52,
-                  width: 52
+                  width: 52,
                 }}
               >
-                <FontAwesomeIcon 
-                  icon={faPencilAlt} 
-                  style={{ 
-                    color: theme.palette.common.white, 
-                    height: 30, 
-                    width: 30 
-                  }} 
+                <FontAwesomeIcon
+                  icon={faPencilAlt}
+                  style={{
+                    color: theme.palette.common.white,
+                    height: 30,
+                    width: 30,
+                  }}
                 />
               </Avatar>
-              <Typography 
-                variant='h4' 
-                component='div' 
-                sx={{ 
+              <Typography
+                variant='h4'
+                component='div'
+                sx={{
                   flexGrow: 1,
                   color: theme.palette.common.white,
-                  fontWeight: 'bold', 
+                  fontWeight: 'bold',
                 }}
               >
                 Image Classification MNIST
@@ -87,7 +87,7 @@ const Sidebar = ({ onMobileClose, openMobile }) => {
             sx={{
               display: 'flex',
               pb: 2,
-              pt: 5
+              pt: 5,
             }}
           >
             <Button
@@ -102,7 +102,7 @@ const Sidebar = ({ onMobileClose, openMobile }) => {
                 fontWeight: 'medium',
                 mr: 2,
                 '& svg': {
-                  mr: 0.5
+                  mr: 0.5,
                 },
               }}
             >
@@ -121,14 +121,11 @@ const Sidebar = ({ onMobileClose, openMobile }) => {
               fontWeight: 'medium',
               mr: 2,
               '& svg': {
-                mr: 0.5
+                mr: 0.5,
               },
             }}
           >
-            <FontAwesomeIcon 
-              icon={faEdit} 
-              style={{ height: 23, width: 23 }} 
-            /> 
+            <FontAwesomeIcon icon={faEdit} style={{ height: 23, width: 23 }} />
             Drawing Editor
           </Button>
           <Button

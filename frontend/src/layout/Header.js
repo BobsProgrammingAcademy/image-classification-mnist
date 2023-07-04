@@ -22,14 +22,14 @@ library.add(faPencilAlt, faEdit);
 
 const Header = ({ onSidebarMobileOpen }) => {
   const theme = useTheme();
-  
+
   return (
     <>
       <AppBar
         elevation={5}
         sx={{
           backgroundColor: theme.palette.background.paper,
-          color: theme.palette.text.secondary
+          color: theme.palette.text.secondary,
         }}
       >
         <Toolbar sx={{ minHeight: 70 }}>
@@ -49,26 +49,26 @@ const Header = ({ onSidebarMobileOpen }) => {
                     backgroundColor: green[600],
                     height: 52,
                     width: 52,
-                    marginRight: '15px'
+                    marginRight: '15px',
                   }}
                 >
-                  <FontAwesomeIcon 
-                    icon={faPencilAlt} 
-                    tyle={{ 
-                      color: '#fff', 
-                      height: 30, 
-                      width: 30 
-                    }} 
+                  <FontAwesomeIcon
+                    icon={faPencilAlt}
+                    tyle={{
+                      color: '#fff',
+                      height: 30,
+                      width: 30,
+                    }}
                   />
                 </Avatar>
-                <Typography 
-                  variant='h3' 
-                  component='div' 
-                  sx={{ 
+                <Typography
+                  variant='h3'
+                  component='div'
+                  sx={{
                     flexGrow: 1,
                     color: theme.palette.text.primary,
                     fontWeight: 'bold',
-                    textDecoration: 'none'
+                    textDecoration: 'none',
                   }}
                 >
                   Image Classification MNIST
@@ -89,7 +89,7 @@ const Header = ({ onSidebarMobileOpen }) => {
               fontWeight: 'medium',
               mr: 2,
               '& svg': {
-                mr: 0.5
+                mr: 0.5,
               },
             }}
           >
@@ -107,14 +107,11 @@ const Header = ({ onSidebarMobileOpen }) => {
               fontWeight: 'medium',
               mr: 2,
               '& svg': {
-                mr: 0.5
+                mr: 0.5,
               },
             }}
           >
-            <FontAwesomeIcon 
-              icon={faEdit} 
-              style={{ height: 23, width: 23 }} 
-            /> 
+            <FontAwesomeIcon icon={faEdit} style={{ height: 23, width: 23 }} />
             Drawing Editor
           </Button>
         </Toolbar>

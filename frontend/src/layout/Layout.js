@@ -9,22 +9,20 @@ import Sidebar from './Sidebar';
 const Layout = ({ children }) => {
   const theme = useTheme();
   const [isSidebarMobileOpen, setIsSidebarMobileOpen] = React.useState(false);
-  
+
   return (
     <Box
       sx={{
         backgroundColor: theme.palette.background.default,
-        height: '100%'
+        height: '100%',
       }}
     >
       <Header onSidebarMobileOpen={() => setIsSidebarMobileOpen(true)} />
-      <Sidebar 
+      <Sidebar
         onMobileClose={() => setIsSidebarMobileOpen(false)}
         openMobile={isSidebarMobileOpen}
       />
-      <main>
-        {children}
-      </main>
+      <main>{children}</main>
       <Footer />
     </Box>
   );

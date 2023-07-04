@@ -8,11 +8,10 @@ import DownloadIcon from '@mui/icons-material/Download';
 
 const EditorButtons = ({ submitOnClick, resetOnClick, downloadOnClick }) => {
   const theme = useTheme();
-  const isMd = useMediaQuery(
-    theme.breakpoints.up('md'),
-    { defaultMatches: true }
-  );
-  
+  const isMd = useMediaQuery(theme.breakpoints.up('md'), {
+    defaultMatches: true,
+  });
+
   return (
     <>
       <Box
@@ -38,8 +37,8 @@ const EditorButtons = ({ submitOnClick, resetOnClick, downloadOnClick }) => {
             '&:hover': {
               backgroundColor: 'transparent',
               color: theme.palette.primary.main,
-              border: '2px solid ' + theme.palette.primary.main
-            }
+              border: '2px solid ' + theme.palette.primary.main,
+            },
           }}
         >
           Send Drawing
@@ -65,8 +64,8 @@ const EditorButtons = ({ submitOnClick, resetOnClick, downloadOnClick }) => {
               '&:hover': {
                 backgroundColor: theme.palette.primary.main,
                 color: theme.palette.text.primary,
-                border: '2px solid ' + theme.palette.primary.main
-              }
+                border: '2px solid ' + theme.palette.primary.main,
+              },
             }}
           >
             Reset Editor
@@ -93,8 +92,8 @@ const EditorButtons = ({ submitOnClick, resetOnClick, downloadOnClick }) => {
               '&:hover': {
                 backgroundColor: theme.palette.secondary.main,
                 color: theme.palette.text.secondary,
-                border: '2px solid ' + theme.palette.secondary.main
-              }
+                border: '2px solid ' + theme.palette.secondary.main,
+              },
             }}
           >
             Download

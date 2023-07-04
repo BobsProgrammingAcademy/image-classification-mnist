@@ -5,12 +5,12 @@ import { useTheme } from '@mui/material';
 
 const SketchCanvas = ({ inputRef }) => {
   const theme = useTheme();
-  
+
   return (
     <Box
       display='flex'
       justifyContent='center'
-      marginBottom={2} 
+      marginBottom={2}
       marginTop={2}
       height='304px'
     >
@@ -21,9 +21,9 @@ const SketchCanvas = ({ inputRef }) => {
         height='300px'
         strokeWidth={25}
         strokeColor={theme.palette.common.white}
-        style={{ 
-          border: '5px solid rgb(85, 89, 110)', 
-          borderRadius: '5px' 
+        style={{
+          border: '5px solid rgb(85, 89, 110)',
+          borderRadius: '5px',
         }}
         withTimestamp='true'
         allowOnlyPointerType='all'

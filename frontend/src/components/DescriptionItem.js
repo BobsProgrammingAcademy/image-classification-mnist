@@ -25,10 +25,7 @@ const DescriptionItem = ({ color, icon, title, subtitle }) => {
         >
           <ListItemAvatar>
             <Box color={color}>
-              <FontAwesomeIcon 
-                icon={icon} 
-                style={{ height: 40, width: 40 }} 
-              />
+              <FontAwesomeIcon icon={icon} style={{ height: 40, width: 40 }} />
             </Box>
           </ListItemAvatar>
           <ListItemText
@@ -38,10 +35,10 @@ const DescriptionItem = ({ color, icon, title, subtitle }) => {
             primaryTypographyProps={{
               variant: 'h3',
               gutterBottom: true,
-              fontWeight: '700'
+              fontWeight: '700',
             }}
             secondaryTypographyProps={{
-              variant: 'subtitle1'
+              variant: 'subtitle1',
             }}
           />
         </ListItem>

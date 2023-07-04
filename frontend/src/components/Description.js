@@ -17,7 +17,7 @@ import DescriptionItem from './DescriptionItem';
 
 const Description = () => {
   const theme = useTheme();
-  
+
   return (
     <Box
       maxWidth={{ sm: 720, md: 1236 }}
@@ -37,7 +37,7 @@ const Description = () => {
           sx={{
             alignItems: 'center',
             flexDirection: 'column',
-            px: { md: '15px !important' } 
+            px: { md: '15px !important' },
           }}
         >
           <Typography
@@ -61,25 +61,25 @@ const Description = () => {
             A step-by-step guide on how to use the app
           </Typography>
           <Grid container spacing={4} data-aos='fade-up'>
-            <DescriptionItem 
-              color='rgb(31, 102, 239)' 
+            <DescriptionItem
+              color='rgb(31, 102, 239)'
               icon={EditIcon}
               title='Draw a Digit'
               subtitle='First, use your mouse to draw a single digit between 0 and 9 in the provided drawing editor in the browser.'
             />
-            <DescriptionItem 
-              color={theme.palette.error.dark} 
+            <DescriptionItem
+              color={theme.palette.error.dark}
               icon={ShareSquareIcon}
               title='Send the Drawing for Classification'
               subtitle='Once you are happy with your drawing, send it to the machine learning model for classification by pressing the Send Drawing button. Press the Reset Editor button to clean the editor to draw another digit.'
-            />           
-            <DescriptionItem 
-              color={theme.palette.primary.main} 
+            />
+            <DescriptionItem
+              color={theme.palette.primary.main}
               icon={LaptopCodeIcon}
               title='Get the Classification Result'
               subtitle='Once you have sent your drawing to the machine learning model, the model classifies your drawing as one of the digits between 0 and 9. The result of the classification is then printed on the screen.'
             />
-            <DescriptionItem 
+            <DescriptionItem
               color={theme.palette.warning.dark}
               icon={DownloadIcon}
               title='Download Your Drawing'

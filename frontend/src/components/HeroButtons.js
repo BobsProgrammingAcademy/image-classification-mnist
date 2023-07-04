@@ -2,17 +2,16 @@ import React from 'react';
 import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
 import { useTheme, useMediaQuery } from '@mui/material';
- 
+
 import InfoIcon from '@mui/icons-material/HelpOutline';
 import PlayIcon from '@mui/icons-material/PlayCircleOutlineOutlined';
 
 const HeroButtons = () => {
   const theme = useTheme();
-  const isMd = useMediaQuery(
-    theme.breakpoints.up('md'),
-    { defaultMatches: true }
-  );
-  
+  const isMd = useMediaQuery(theme.breakpoints.up('md'), {
+    defaultMatches: true,
+  });
+
   return (
     <>
       <Box
@@ -39,8 +38,8 @@ const HeroButtons = () => {
             '&:hover': {
               backgroundColor: 'transparent',
               color: theme.palette.primary.main,
-              border: '2px solid ' + theme.palette.primary.main
-            }
+              border: '2px solid ' + theme.palette.primary.main,
+            },
           }}
         >
           Get Started
@@ -67,8 +66,8 @@ const HeroButtons = () => {
               '&:hover': {
                 backgroundColor: theme.palette.primary.main,
                 color: theme.palette.text.primary,
-                border: '2px solid ' + theme.palette.primary.main
-              }
+                border: '2px solid ' + theme.palette.primary.main,
+              },
             }}
           >
             Watch Demo

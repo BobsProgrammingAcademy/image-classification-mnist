@@ -5,14 +5,8 @@ import Box from '@mui/material/Box';
 
 const CustomAlert = ({ variant, severity, title, children }) => {
   return (
-    <Box 
-      marginBottom={3} 
-      marginTop={2}
-    >
-      <Alert
-        variant={variant}
-        severity={severity}
-      >
+    <Box marginBottom={3} marginTop={2}>
+      <Alert variant={variant} severity={severity}>
         <AlertTitle>{title}</AlertTitle>
         {children}
       </Alert>

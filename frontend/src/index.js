@@ -8,9 +8,9 @@ import theme from './theme/theme';
 import App from './App';
 
 ReactDOM.render(
-    <ThemeProvider theme={theme}>
-        <CssBaseline />
-        <App />
-    </ThemeProvider>, 
-    document.getElementById('root')
+  <ThemeProvider theme={theme}>
+    <CssBaseline />
+    <App />
+  </ThemeProvider>,
+  document.getElementById('root')
 );

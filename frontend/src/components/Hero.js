@@ -11,11 +11,10 @@ import HeroButtons from '../components/HeroButtons';
 
 const Hero = () => {
   const theme = useTheme();
-  const isMd = useMediaQuery(
-    theme.breakpoints.up('md'),
-    { defaultMatches: true }
-  );
-  
+  const isMd = useMediaQuery(theme.breakpoints.up('md'), {
+    defaultMatches: true,
+  });
+
   useEffect(() => {
     AOS.init({
       once: true,
@@ -24,7 +23,7 @@ const Hero = () => {
       easing: 'ease-in-out',
     });
   }, []);
-  
+
   return (
     <Box
       maxWidth={{ sm: 720, md: 1236 }}
@@ -61,24 +60,24 @@ const Hero = () => {
             <HeroButtons />
           </Box>
         </Grid>
-        <Grid 
-          item 
-          container 
-          alignItems='center' 
-          justifyContent='center' 
-          xs={12} 
+        <Grid
+          item
+          container
+          alignItems='center'
+          justifyContent='center'
+          xs={12}
           md={6}
         >
           <Box
             sx={{
               height: { xs: 'auto', md: 1 },
               '& img': {
-                objectFit: 'cover'
+                objectFit: 'cover',
               },
               '& .lazy-load-image-loaded': {
                 height: 1,
-                width: 1
-              }
+                width: 1,
+              },
             }}
           >
             <Box
@@ -90,7 +89,7 @@ const Hero = () => {
               maxHeight={{ xs: 300, md: 1 }}
               width={1}
               maxWidth={1}
-              borderRadius={2} 
+              borderRadius={2}
             />
           </Box>
         </Grid>
