@@ -33,11 +33,11 @@ const EditorButtons = ({ submitOnClick, resetOnClick, downloadOnClick }) => {
             padding: '14px 30px',
             marginRight: '15px',
             fontSize: '18px',
-            border: '2px solid ' + theme.palette.primary.main,
+            border: `2px solid ${theme.palette.primary.main}`,
             '&:hover': {
               backgroundColor: 'transparent',
               color: theme.palette.primary.main,
-              border: '2px solid ' + theme.palette.primary.main,
+              border: `2px solid ${theme.palette.primary.main}`,
             },
           }}
         >
@@ -60,11 +60,11 @@ const EditorButtons = ({ submitOnClick, resetOnClick, downloadOnClick }) => {
               padding: '14px 30px',
               marginRight: '15px',
               fontSize: '18px',
-              border: '2px solid ' + theme.palette.primary.main,
+              border: `2px solid ${theme.palette.primary.main}`,
               '&:hover': {
                 backgroundColor: theme.palette.primary.main,
                 color: theme.palette.text.primary,
-                border: '2px solid ' + theme.palette.primary.main,
+                border: `2px solid ${theme.palette.primary.main}`,
               },
             }}
           >
@@ -88,11 +88,11 @@ const EditorButtons = ({ submitOnClick, resetOnClick, downloadOnClick }) => {
               padding: '14px 30px',
               marginRight: '15px',
               fontSize: '18px',
-              border: '2px solid ' + theme.palette.secondary.main,
+              border: `2px solid ${theme.palette.primary.main}`,
               '&:hover': {
                 backgroundColor: theme.palette.secondary.main,
                 color: theme.palette.text.secondary,
-                border: '2px solid ' + theme.palette.secondary.main,
+                border: `2px solid ${theme.palette.primary.main}`,
               },
             }}
           >

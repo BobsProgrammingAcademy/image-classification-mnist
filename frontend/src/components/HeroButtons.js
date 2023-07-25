@@ -34,11 +34,11 @@ const HeroButtons = () => {
             padding: '18px 34px',
             marginRight: '15px',
             fontSize: '18px',
-            border: '2px solid ' + theme.palette.primary.main,
+            border: `2px solid ${theme.palette.primary.main}`,
             '&:hover': {
               backgroundColor: 'transparent',
               color: theme.palette.primary.main,
-              border: '2px solid ' + theme.palette.primary.main,
+              border: `2px solid ${theme.palette.primary.main}`,
             },
           }}
         >
@@ -62,11 +62,11 @@ const HeroButtons = () => {
               padding: '18px 34px',
               marginRight: '15px',
               fontSize: '18px',
-              border: '2px solid ' + theme.palette.primary.main,
+              border: `2px solid ${theme.palette.primary.main}`,
               '&:hover': {
                 backgroundColor: theme.palette.primary.main,
                 color: theme.palette.text.primary,
-                border: '2px solid ' + theme.palette.primary.main,
+                border: `2px solid ${theme.palette.primary.main}`,
               },
             }}
           >
