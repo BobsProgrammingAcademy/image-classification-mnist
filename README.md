@@ -1,6 +1,6 @@
 # Image Classification MNIST
 
-This is an image classification app built using **TensorFlow 2**, **Django 3**, **Django REST Framework 3**, **React 17**, and **Material UI 5**. The app uses a machine learning model built in TensorFlow and trained on the MNIST dataset to recognize handwritten digits.
+This image classification app is built using **TensorFlow 2**, **Django 3**, **Django REST Framework 3**, **React 17**, and **Material UI 5**. The app uses a machine learning model built in TensorFlow and trained on the MNIST dataset to recognize handwritten digits.
 
 ![plot](https://github.com/BobsProgrammingAcademy/Image-Classification-MNIST/blob/master/frontend/src/assets/images/drawing_editor.png?raw=true)
 
@@ -29,7 +29,7 @@ Install the following prerequisites:
 
 #### 1. Create a virtual environment
 
-From the **root** directory run:
+From the **root** directory, run:
 
 ```bash
 cd backend
@@ -40,7 +40,7 @@ python -m venv venv
 
 #### 2. Activate the virtual environment
 
-From the **backend** directory run:
+From the **backend** directory, run:
 
 On macOS:
 
@@ -56,7 +56,7 @@ venv\scripts\activate
 
 #### 3. Install required backend dependencies
 
-From the **backend** directory run:
+From the **backend** directory, run:
 
 ```bash
 pip install -r requirements.txt
@@ -64,7 +64,7 @@ pip install -r requirements.txt
 
 #### 4. Run migrations
 
-From the **backend** directory run:
+From the **backend** directory, run:
 
 ```bash
 python manage.py makemigrations
@@ -78,7 +78,7 @@ python manage.py migrate
 
 #### 1. Install required frontend dependencies
 
-From the **root** directory run:
+From the **root** directory, run:
 
 ```bash
 cd frontend
@@ -93,7 +93,7 @@ To run the application, you need to have both the backend and the frontend up an
 
 #### 1. Run backend
 
-From the **backend** directory run:
+From the **backend** directory, run:
 
 ```bash
 python manage.py runserver
@@ -101,7 +101,7 @@ python manage.py runserver
 
 #### 2. Run frontend
 
-From the **frontend** directory run:
+From the **frontend** directory, run:
 
 ```bash
 npm start
