@@ -86,8 +86,8 @@ const Sidebar = ({ onMobileClose, openMobile }) => {
           <Box
             sx={{
               display: 'flex',
-              pb: 2,
-              pt: 5,
+              paddingBottom: 2,
+              paddingTop: 5,
             }}
           >
             <Button
@@ -133,7 +133,7 @@ const Sidebar = ({ onMobileClose, openMobile }) => {
             color='primary'
             href='/'
             size='small'
-            sx={{ mt: 4 }}
+            sx={{ marginTop: 4 }}
             variant='contained'
           >
             Watch Demo
