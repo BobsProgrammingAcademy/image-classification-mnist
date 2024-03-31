@@ -47,7 +47,7 @@ const Sidebar = ({ onMobileClose, openMobile }) => {
             display: 'flex',
             flexDirection: 'column',
             height: '100%',
-            p: 2,
+            padding: 2,
           }}
         >
           <Link to='/' style={{ textDecoration: 'none' }}>
@@ -100,9 +100,9 @@ const Sidebar = ({ onMobileClose, openMobile }) => {
                 color: theme.palette.text.secondary,
                 fontSize: theme.typography.subtitle1,
                 fontWeight: 'medium',
-                mr: 2,
+                marginRight: 2,
                 '& svg': {
-                  mr: 0.5,
+                  marginRight: 0.5,
                 },
               }}
             >
@@ -119,9 +119,9 @@ const Sidebar = ({ onMobileClose, openMobile }) => {
               color: theme.palette.text.secondary,
               fontSize: theme.typography.subtitle1,
               fontWeight: 'medium',
-              mr: 2,
+              marginRight: 2,
               '& svg': {
-                mr: 0.5,
+                marginRight: 0.5,
               },
             }}
           >
