@@ -37,7 +37,7 @@ const Description = () => {
           sx={{
             alignItems: 'center',
             flexDirection: 'column',
-            px: { md: '15px !important' },
+            paddingX: { md: '15px !important' },
           }}
         >
           <Typography
