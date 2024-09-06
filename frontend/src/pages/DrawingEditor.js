@@ -1,4 +1,4 @@
-import React, { useState, createRef } from 'react';
+import { useState, createRef } from 'react';
 import axios from 'axios';
 import { Helmet } from 'react-helmet-async';
 import { saveAs } from 'file-saver';
