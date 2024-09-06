@@ -1,5 +1,4 @@
 import 'regenerator-runtime';
-import React from 'react';
 import { Helmet } from 'react-helmet-async';
 
 import CustomDivider from '../components/CustomDivider';
