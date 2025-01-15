@@ -2,6 +2,7 @@ import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
 import { useTheme, useMediaQuery } from '@mui/material';
 
+// Material Icons
 import InfoIcon from '@mui/icons-material/HelpOutline';
 import PlayIcon from '@mui/icons-material/PlayCircleOutlineOutlined';
 
