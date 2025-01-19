@@ -8,6 +8,8 @@ import IconButton from '@mui/material/IconButton';
 import Typography from '@mui/material/Typography';
 import { useTheme, useMediaQuery } from '@mui/material';
 import { green } from '@mui/material/colors';
+
+// Material Icons
 import HomeIcon from '@mui/icons-material/Home';
 
 // Font Awesome Icons
