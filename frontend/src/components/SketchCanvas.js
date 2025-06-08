@@ -1,4 +1,6 @@
 import { ReactSketchCanvas } from 'react-sketch-canvas';
+
+// Material UI
 import Box from '@mui/material/Box';
 import { useTheme } from '@mui/material';
 
