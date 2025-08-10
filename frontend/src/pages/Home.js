@@ -1,6 +1,7 @@
 import 'regenerator-runtime';
 import { Helmet } from 'react-helmet-async';
 
+// Material UI
 import CustomDivider from '../components/CustomDivider';
 import Description from '../components/Description';
 import Hero from '../components/Hero';
