@@ -8,8 +8,9 @@ import Grid from '@mui/material/Grid';
 import Typography from '@mui/material/Typography';
 import { useTheme, useMediaQuery } from '@mui/material';
 
-import bgImage from '../assets/images/img1.jpg';
+// Components
 import HeroButtons from '../components/HeroButtons';
+import bgImage from '../assets/images/img1.jpg';
 
 const Hero = () => {
   const theme = useTheme();
