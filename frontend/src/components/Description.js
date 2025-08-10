@@ -13,6 +13,7 @@ import { faShareSquare as ShareSquareIcon } from '@fortawesome/free-regular-svg-
 import { faLaptopCode as LaptopCodeIcon } from '@fortawesome/free-solid-svg-icons';
 library.add(EditIcon, DownloadIcon, ShareSquareIcon, LaptopCodeIcon);
 
+// Components
 import DescriptionItem from './DescriptionItem';
 
 const Description = () => {
