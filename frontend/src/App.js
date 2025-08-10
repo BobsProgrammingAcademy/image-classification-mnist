@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import { HelmetProvider, Helmet } from 'react-helmet-async';
 import 'aos/dist/aos.css';
 
+// Components
 import Layout from './layout/Layout';
 import Home from './pages/Home';
 import DrawingEditor from './pages/DrawingEditor';
