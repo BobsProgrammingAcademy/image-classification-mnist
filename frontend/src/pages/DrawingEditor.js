@@ -11,6 +11,7 @@ import Typography from '@mui/material/Typography';
 import { useTheme, useMediaQuery } from '@mui/material';
 import { green } from '@mui/material/colors';
 
+// Components
 import SketchCanvas from '../components/SketchCanvas';
 import CustomAlert from '../components/CustomAlert';
 import EditorHeader from '../components/EditorHeader';
