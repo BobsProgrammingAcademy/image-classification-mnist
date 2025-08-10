@@ -1,6 +1,7 @@
 import Box from '@mui/material/Box';
 import { useTheme } from '@mui/material';
 
+// Components
 import Header from './Header';
 import Footer from './Footer';
 import Sidebar from './Sidebar';
